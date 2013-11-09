@@ -1,0 +1,16 @@
+package com.yhackchamps.evently;
+
+import android.app.Activity;
+import android.os.Bundle; 
+
+public class event_list extends Activity {
+	
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.categories);
+		
+		event_card event = new event_card(this);
+		
+	}
+
+}

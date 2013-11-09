@@ -1,0 +1,12 @@
+package com.yhackchamps.evently;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+public class category_activity extends Activity{
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		
+	}
+}

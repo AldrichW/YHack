@@ -9,7 +9,7 @@ package com.yhackchamps.evently;
 
 public final class R {
     public static final class array {
-        public static final int category_array=0x7f060000;
+        public static final int cities_array=0x7f060000;
     }
     public static final class attr {
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
@@ -25,19 +25,28 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int black_overlay=0x7f040000;
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
+        public static final int event_card=0x7f020000;
+        public static final int ic_launcher=0x7f020001;
     }
     public static final class id {
         public static final int app_desc=0x7f080001;
-        public static final int b_submit1=0x7f080004;
-        public static final int city_form=0x7f080003;
+        public static final int b_culture=0x7f080006;
+        public static final int b_music=0x7f080003;
+        public static final int b_next=0x7f08000a;
+        public static final int b_shop=0x7f080005;
+        public static final int b_sight=0x7f080007;
+        public static final int b_tech=0x7f080004;
+        public static final int city_form=0x7f080008;
         public static final int fullscreen_content=0x7f080000;
         public static final int fullscreen_content_controls=0x7f080002;
+        public static final int parentLayout=0x7f08000b;
+        public static final int t_no_input=0x7f080009;
     }
     public static final class layout {
         public static final int activity_fullscreen=0x7f030000;
         public static final int categories=0x7f030001;
         public static final int city_form=0x7f030002;
+        public static final int event_list=0x7f030003;
     }
     public static final class string {
         public static final int app_line=0x7f050003;

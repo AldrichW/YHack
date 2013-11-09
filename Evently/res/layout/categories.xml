@@ -10,12 +10,14 @@
 	   		<TextView
 	        android:layout_width="match_parent"
 	        android:layout_height="wrap_content"
+	        android:layout_marginTop="60dp"
 	        android:text="@string/category"
 	        android:textColor="#ffffff"
 	        android:textSize="30sp"
 	        android:gravity="center_horizontal"
 	        android:textStyle="bold"/>
 	   		<Button
+	   		android:id="@+id/b_music"
 		    android:layout_width="match_parent"
 		    android:layout_height="70dp"
 		    android:layout_marginTop="30dp"
@@ -23,24 +25,28 @@
 		    android:textSize="24sp"
 		    android:gravity="center"/>
 	   		<Button
+	   		android:id="@+id/b_tech"
 		    android:layout_width="match_parent"
 		    android:layout_height="70dp"
 		    android:textSize="24sp"
 		    android:text="Technology"
 		    android:gravity="center"/>
 	   		<Button
+	   		android:id="@+id/b_shop"
 		    android:layout_width="match_parent"
 		    android:layout_height="70dp"
 		    android:textSize="24sp"
 		    android:text="Shopping"
 		    android:gravity="center"/>
 	   		<Button
+	   		android:id="@+id/b_culture"
 		    android:layout_width="match_parent"
 		    android:layout_height="70dp"
 		    android:textSize="24sp"
 		    android:text="Cultural"
 		    android:gravity="center"/>
 	   		<Button
+	   		android:id="@+id/b_sight"
 		    android:layout_width="match_parent"
 		    android:layout_height="70dp"
 		    android:textSize="24sp"

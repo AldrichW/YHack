@@ -1,0 +1,52 @@
+package com.yhackchamps.evently;
+
+import android.app.Activity;
+import android.graphics.Color;
+import android.os.Bundle; 
+import android.widget.LinearLayout;
+import android.widget.TextView;
+
+public class event_list extends Activity {
+	
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.categories);
+		
+		event_card event = new event_card(this);
+		
+		event.setEventName("Drake Tour"); 
+		event.setCategory("Music");
+		event.setPrice("Free");
+		event.setLocation("Toronto, ON");
+		event.setDate("Monday", "November", 21,  2013);
+		
+		LinearLayout parentLayout = (LinearLayout)findViewById(R.id.parentLayout);
+        LinearLayout [] lLayout = new LinearLayout[8];
+        for(int i = 0; i < lLayout.length; i++) {
+            lLayout[i] = new LinearLayout(this);
+            lLayout[i].setId(i);
+            lLayout[i].setOrientation(LinearLayout.VERTICAL);
+            if(i%2 == 0) {
+                lLayout[i].setBackgroundColor(Color.GRAY);
+                TextView event_name= new TextView(this);
+                event_name.setText(event.getEventName());
+                lLayout[i].addView(event_name);
+                TextView category= new TextView(this);
+                category.setText(event.getCategory());
+                lLayout[i].addView(category);             
+                
+            } else {
+                lLayout[i].setBackgroundColor(Color.WHITE);
+                TextView event_name= new TextView(this);
+                event_name.setText(event.getEventName());
+                lLayout[i].addView(event_name);
+                TextView category= new TextView(this);
+                category.setText(event.getCategory());
+                lLayout[i].addView(category); 
+            }
+            parentLayout.addView(lLayout[i]);
+        }
+		
+	}
+
+}

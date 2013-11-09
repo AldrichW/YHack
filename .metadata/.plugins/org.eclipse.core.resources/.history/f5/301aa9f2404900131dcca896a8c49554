@@ -1,0 +1,37 @@
+package com.yhackchamps.evently;
+
+import android.content.Context;
+import android.view.View;
+
+public class event_card extends View {
+	
+	public event_card(Context context) {
+		super(context);
+		// TODO Auto-generated constructor stub
+		
+		event_name = category = price= null;
+		
+		month = day = hour = minute = 0;
+		
+		
+		
+		
+	}
+
+	private String event_name;
+	
+	private String category;
+	
+	private String price;
+	
+	private int month;
+	
+	private int day;
+	
+	private int year;
+	
+	private int hour;
+	
+	private int minute;
+	
+}

@@ -1,0 +1,27 @@
+package com.yhackchamps.evently;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+
+public class category_activity extends Activity{
+	
+	private String chosenCategory;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.categories);
+		
+		Button b_music = (Button)findViewById(R.id.b_music);
+		b_music.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				
+			}
+		};
+		
+	}
+}

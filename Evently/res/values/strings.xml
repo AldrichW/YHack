@@ -5,15 +5,16 @@
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="app_line">Events at your fingertips</string>
-    <string name="city_query">What city are you in?</string>
+    <string name="city_query">Which city are you in?</string>
     <string name="city_hint">ie. Toronto</string>
     <string name="next_button">Next</string>
-    <string name="category">What are you into?</string><string-array name="category_array">
-        <item >Music</item>
-        <item >Technology</item>
-        <item >Shopping</item>
-        <item >Cultural</item>
-        <item >Sightseeing</item>
+    <string name="category">What are you into?</string><string-array name="cities_array"><item>Boston, MA</item><item>Cambridge, MA</item><item>New Haven, CT</item><item>San Francisco, CA</item><item>Toronto, ON</item>
+        
+        
+        
+        
+        <item >Vancouver, BC</item>
+        
     </string-array>
 
     

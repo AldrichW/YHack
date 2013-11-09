@@ -1,0 +1,9 @@
+package com.yhackchamps.evently;
+
+public class event_card {
+	
+	String Title;
+	
+	
+
+}

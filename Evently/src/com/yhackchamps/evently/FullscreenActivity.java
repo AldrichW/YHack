@@ -32,8 +32,9 @@ public class FullscreenActivity extends Activity {
                         finish();
                 }
         }, secondsDelayed * 2000);
-
+        
 	}
+	
 
 
 
