@@ -9,9 +9,8 @@ public class event_card extends View {
 		super(context);
 		// TODO Auto-generated constructor stub
 		
-		event_name = category = unitprice = location= month=day=null;
-		
-		date = year = 0;			
+		event_name = category = unitprice = location=date=null;
+					
 	}
 
 	private String event_name;
@@ -22,13 +21,8 @@ public class event_card extends View {
 	
 	private String location; 
 	
-	private String month;
+	private String date;
 	
-	private String day;
-	
-	private int date;
-	
-	private int year;
 	
 	public void setEventName(String _event_name){
 		event_name = _event_name;
@@ -46,11 +40,8 @@ public class event_card extends View {
 		location = _location;
 	}
 	
-	public void setDate (String _day, String _month, int _date, int _year){
-		day = _day;
-		month = _month;
+	public void setDate (String _date){
 		date = _date;
-		year = _year;
 	}	
 	
 	public String getEventName(){
@@ -69,16 +60,7 @@ public class event_card extends View {
 		return location;
 	}
 	
-	public String getDay(){
-		return day;
-	}	
-	public String getMonth (){
-		return month;
-	}	
-	public int getDate (){
+	public String getDate(){
 		return date;
-	}	
-	public int getYear(){
-		return year;
 	}	
 }
