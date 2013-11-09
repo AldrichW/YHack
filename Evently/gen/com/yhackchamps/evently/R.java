@@ -8,6 +8,9 @@
 package com.yhackchamps.evently;
 
 public final class R {
+    public static final class array {
+        public static final int category_array=0x7f060000;
+    }
     public static final class attr {
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
@@ -25,22 +28,50 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int app_desc=0x7f070001;
-        public static final int editText1=0x7f070003;
-        public static final int fullscreen_content=0x7f070000;
-        public static final int fullscreen_content_controls=0x7f070002;
+        public static final int app_desc=0x7f080003;
+        public static final int b_submit1=0x7f080006;
+        public static final int category_detail=0x7f080007;
+        public static final int category_detail_container=0x7f080000;
+        public static final int category_list=0x7f080001;
+        public static final int city_form=0x7f080005;
+        public static final int fullscreen_content=0x7f080002;
+        public static final int fullscreen_content_controls=0x7f080004;
     }
     public static final class layout {
-        public static final int activity_fullscreen=0x7f030000;
-        public static final int city_form=0x7f030001;
+        public static final int activity_category_detail=0x7f030000;
+        /** 
+    Layout alias to replace the single-pane version of the layout with a
+    two-pane version on Large screens.
+
+    For more on layout aliases, see:
+    http://developer.android.com/training/multiscreen/screensizes.html#TaskUseAliasFilters
+    
+
+    Layout alias to replace the single-pane version of the layout with a
+    two-pane version on Large screens.
+
+    For more on layout aliases, see:
+    http://developer.android.com/training/multiscreen/screensizes.html#TaskUseAliasFilters
+    
+         */
+        public static final int activity_category_list=0x7f030001;
+        public static final int activity_category_twopane=0x7f030002;
+        public static final int activity_fullscreen=0x7f030003;
+        public static final int categories=0x7f030004;
+        public static final int city_form=0x7f030005;
+        public static final int fragment_category_detail=0x7f030006;
     }
     public static final class string {
         public static final int app_line=0x7f050003;
         public static final int app_name=0x7f050000;
+        public static final int category=0x7f050007;
         public static final int city_hint=0x7f050005;
         public static final int city_query=0x7f050004;
         public static final int dummy_button=0x7f050001;
         public static final int dummy_content=0x7f050002;
+        public static final int next_button=0x7f050006;
+        public static final int title_category_detail=0x7f050009;
+        public static final int title_category_list=0x7f050008;
     }
     public static final class style {
         /** 
@@ -64,15 +95,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f060000;
+        public static final int AppBaseTheme=0x7f070000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f060001;
-        public static final int ButtonBar=0x7f060003;
-        public static final int ButtonBarButton=0x7f060004;
-        public static final int FullscreenActionBarStyle=0x7f060005;
-        public static final int FullscreenTheme=0x7f060002;
+        public static final int AppTheme=0x7f070001;
+        public static final int ButtonBar=0x7f070003;
+        public static final int ButtonBarButton=0x7f070004;
+        public static final int FullscreenActionBarStyle=0x7f070005;
+        public static final int FullscreenTheme=0x7f070002;
     }
     public static final class styleable {
         /** 

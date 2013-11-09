@@ -24,6 +24,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.yhackchamps.evently.categoryListActivity"
+            android:label="@string/title_category_list" >
+        </activity>
+        <activity
+            android:name="com.yhackchamps.evently.categoryDetailActivity"
+            android:label="@string/title_category_detail"
+            android:parentActivityName=".categoryListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".categoryListActivity" />
+        </activity>
     </application>
 
 </manifest>

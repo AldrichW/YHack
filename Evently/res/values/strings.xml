@@ -7,5 +7,18 @@
     <string name="app_line">Events at your fingertips</string>
     <string name="city_query">What city are you in?</string>
     <string name="city_hint">ie. Toronto</string>
+    <string name="next_button">Next</string>
+    <string name="category">What are you into?</string><string-array name="category_array">
+        <item >Music</item>
+        <item >Technology</item>
+        <item >Shopping</item>
+        <item >Cultural</item>
+        <item >Sightseeing</item>
+    </string-array>
+
+    
+
+    <string name="title_category_list">categories</string>
+    <string name="title_category_detail">category Detail</string>
 
 </resources>
