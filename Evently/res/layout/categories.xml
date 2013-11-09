@@ -17,27 +17,33 @@
 	        android:textStyle="bold"/>
 	   		<Button
 		    android:layout_width="match_parent"
-		    android:layout_height="50dp"
+		    android:layout_height="70dp"
+		    android:layout_marginTop="30dp"
 		    android:text="Music"
+		    android:textSize="24sp"
 		    android:gravity="center"/>
 	   		<Button
 		    android:layout_width="match_parent"
-		    android:layout_height="50dp"
+		    android:layout_height="70dp"
+		    android:textSize="24sp"
 		    android:text="Technology"
 		    android:gravity="center"/>
 	   		<Button
 		    android:layout_width="match_parent"
-		    android:layout_height="50dp"
+		    android:layout_height="70dp"
+		    android:textSize="24sp"
 		    android:text="Shopping"
 		    android:gravity="center"/>
 	   		<Button
 		    android:layout_width="match_parent"
-		    android:layout_height="50dp"
+		    android:layout_height="70dp"
+		    android:textSize="24sp"
 		    android:text="Cultural"
 		    android:gravity="center"/>
 	   		<Button
 		    android:layout_width="match_parent"
-		    android:layout_height="50dp"
+		    android:layout_height="70dp"
+		    android:textSize="24sp"
 		    android:text="SightSeeing"
 		    android:gravity="center"/>
     </LinearLayout>

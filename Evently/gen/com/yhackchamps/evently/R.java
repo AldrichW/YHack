@@ -28,38 +28,16 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int app_desc=0x7f080003;
-        public static final int b_submit1=0x7f080006;
-        public static final int category_detail=0x7f080007;
-        public static final int category_detail_container=0x7f080000;
-        public static final int category_list=0x7f080001;
-        public static final int city_form=0x7f080005;
-        public static final int fullscreen_content=0x7f080002;
-        public static final int fullscreen_content_controls=0x7f080004;
+        public static final int app_desc=0x7f080001;
+        public static final int b_submit1=0x7f080004;
+        public static final int city_form=0x7f080003;
+        public static final int fullscreen_content=0x7f080000;
+        public static final int fullscreen_content_controls=0x7f080002;
     }
     public static final class layout {
-        public static final int activity_category_detail=0x7f030000;
-        /** 
-    Layout alias to replace the single-pane version of the layout with a
-    two-pane version on Large screens.
-
-    For more on layout aliases, see:
-    http://developer.android.com/training/multiscreen/screensizes.html#TaskUseAliasFilters
-    
-
-    Layout alias to replace the single-pane version of the layout with a
-    two-pane version on Large screens.
-
-    For more on layout aliases, see:
-    http://developer.android.com/training/multiscreen/screensizes.html#TaskUseAliasFilters
-    
-         */
-        public static final int activity_category_list=0x7f030001;
-        public static final int activity_category_twopane=0x7f030002;
-        public static final int activity_fullscreen=0x7f030003;
-        public static final int categories=0x7f030004;
-        public static final int city_form=0x7f030005;
-        public static final int fragment_category_detail=0x7f030006;
+        public static final int activity_fullscreen=0x7f030000;
+        public static final int categories=0x7f030001;
+        public static final int city_form=0x7f030002;
     }
     public static final class string {
         public static final int app_line=0x7f050003;

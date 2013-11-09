@@ -1,0 +1,4 @@
+INDEX VERSION 1.126+/Users/aldrichW/Documents/workspace/YHack/.metadata/.plugins/org.eclipse.jdt.core
+3078508067.index
+2411623896.index
+1816488534.index

@@ -34,8 +34,7 @@
         android:textStyle="bold"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
-        android:text="@string/next_button"
-        />
+        android:text="@string/next_button"/>
 
 
 
